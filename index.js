@@ -1,11 +1,8 @@
-export const hasClass = (element, className) =>
-	element.classList.contains(className);
+/* globals document, getComputedStyle */
 
-export const toggleClass = (element, className) =>
-	element.classList.toggle(className);
-
-export const addClass = (element, className) =>
+export const addClass = (element, className) => {
 	element.classList.add(className);
+};
 
 export const addClassAll = (NodeList, className) => {
 	for (const element of NodeList) {
@@ -13,13 +10,22 @@ export const addClassAll = (NodeList, className) => {
 	}
 };
 
-export const removeClass = (element, className) =>
+export const removeClass = (element, className) => {
 	element.classList.remove(className);
+};
 
 export const removeClassAll = (NodeList, className) => {
 	for (const element of NodeList) {
 		element.classList.remove(className);
 	}
+};
+
+export const hasClass = (element, className) => {
+	element.classList.contains(className);
+};
+
+export const toggleClass = (element, className) => {
+	element.classList.toggle(className);
 };
 
 export const getStyle = (element, ruleName) =>

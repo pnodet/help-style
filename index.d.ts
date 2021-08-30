@@ -1,19 +1,4 @@
 /**
- * Checks whether an element has a particular class
- * @param {HTMLElement} element
- * @param {String} className
- * @return {Boolean}
- */
-export function hasClass(element: HTMLElement, className: string): boolean;
-
-/**
- * Toggle a class for an element
- * @param {HTMLElement} element
- * @param {String} className
- */
-export function toggleClass(element: HTMLElement, className: string): boolean;
-
-/**
  * Add a class for an element
  * @param {HTMLElement} element
  * @param {String} className
@@ -40,6 +25,21 @@ export function removeClass(element: HTMLElement, className: string): void;
  * @param {String} className
  */
 export function removeClassAll(NodeList: NodeList, className: string): void;
+
+/**
+ * Checks whether an element has a particular class
+ * @param {HTMLElement} element
+ * @param {String} className
+ * @return {Boolean}
+ */
+export function hasClass(element: HTMLElement, className: string): boolean;
+
+/**
+ * Toggle a class for an element
+ * @param {HTMLElement} element
+ * @param {String} className
+ */
+export function toggleClass(element: HTMLElement, className: string): boolean;
 
 /**
  * Get the value of a CSS rule for an element

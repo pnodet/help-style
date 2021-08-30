@@ -34,27 +34,32 @@ Read more here: [sindresorhus/esm-package](https://gist.github.com/sindresorhus/
 
 ```js
 
-hasClass([1,2,3], (element) => typeof element === 'string');
+helpStyle.hasClass([1,2,3], (element) => typeof element === 'string');
 //=> false
 
-hasClass(['1', '2', '3'], (element) => typeof element === 'string');
+helpStyle.hasClass(['1', '2', '3'], (element) => typeof element === 'string');
 //=> true
 ```
 
-`hasClass` : Checks whether an element has a particular class\
-`toggleClass` : Toggle a class for an element
+## API
 
-`addClass` : Add a class for an element\
-`addClassAll` : Add a class to all elements of a NodeList
+`addClass(element, className)` : Add a class to an `element`
 
-`removeClass` : Remove a class for an element\
-`removeClassAll` : Remove a class to all elements of a NodeList
+`addClassAll(nodeList, className)` : Add a class to all elements of a `NodeList`
 
-`getStyle` : Get the value of a CSS rule for an element
+`removeClass` : Remove a class to an `element`
+
+`removeClassAll` : Remove a class to all elements of a `NodeList`
+
+`hasClass` : Checks whether an `element` has a particular class
+
+`toggleClass` : Toggle a class for an `element`
+
+`getStyle` : Get the value of a CSS rule for an `element`
 
 `getCurrentMediaQuery` : Returns the current media query in use
 
-`getMetaContentByName` : Returns a metatag content by name
+`getMetaContentByName` : Returns a metatag content by `name`
 
 ## License
 
