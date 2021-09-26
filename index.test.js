@@ -1,37 +1,37 @@
 import test from 'ava';
 
-test('addClass()', (t) => {
+test('addClass()', t => {
 	t.pass();
 });
 
-test('addClassAll()', (t) => {
+test('addClassAll()', t => {
 	t.pass();
 });
 
-test('removeClass()', (t) => {
+test('removeClass()', t => {
 	t.pass();
 });
 
-test('removeClassAll()', (t) => {
+test('removeClassAll()', t => {
 	t.pass();
 });
 
-test('hasClass()', (t) => {
+test('hasClass()', t => {
 	t.pass();
 });
 
-test('toggleClass()', (t) => {
+test('toggleClass()', t => {
 	t.pass();
 });
 
-test('getStyle()', (t) => {
+test('getStyle()', t => {
 	t.pass();
 });
 
-test('getCurrentMediaQuery()', (t) => {
+test('getCurrentMediaQuery()', t => {
 	t.pass();
 });
 
-test('getMetaContentByName()', (t) => {
+test('getMetaContentByName()', t => {
 	t.pass();
 });

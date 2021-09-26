@@ -36,5 +36,5 @@ export const getCurrentMediaQuery = () =>
 		.getPropertyValue('--breakpoint')
 		.trim();
 
-export const getMetaContentByName = (name) =>
+export const getMetaContentByName = name =>
 	document.querySelector(`meta[name='${name}']`).getAttribute('content');
