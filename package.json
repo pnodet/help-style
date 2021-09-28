@@ -40,7 +40,8 @@
 	},
 	"prettier": "prettier-config-xo",
 	"xo": {
-		"prettier": true
+		"prettier": true,
+		"env": "browser"
 	},
 	"keywords": [
 		"helper",

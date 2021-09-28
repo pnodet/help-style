@@ -1,5 +1,3 @@
-/* globals document, getComputedStyle */
-
 export const addClass = (element, className) => {
 	element.classList.add(className);
 };
